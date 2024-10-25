@@ -1,0 +1,17 @@
+[package]
+name = "gal9"
+version = "0.1.0"
+authors = ["arctan95 <jaeqentan@gmail.com>"]
+description = "A full-featured Silly Gal No.9 is at your service!"
+license = "Apache-2.0"
+repository = "https://github.com/sillygals/gal9"
+edition = "2021"
+
+[[bin]]
+name = "gal9"
+path = "src/main.rs"
+
+[dependencies]
+fluent = "0.15.0"
+fluent-bundle = "0.15.0"
+unic-langid = {version = "0.9.5", features = ["macros"]}
